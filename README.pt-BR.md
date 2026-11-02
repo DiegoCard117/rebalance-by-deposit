@@ -136,6 +136,13 @@ de centavos em relação a arredondar a venda inteira. FIFO não arredonda quant
 `holding_days` é a diferença entre as datas e `long_term` indica pelo menos
 365 dias. Vender mais que a posição disponível gera `ValueError`, sem inventar lote.
 
+## Para ler mais
+
+Artigos sobre o algoritmo:
+
+- [Rebalanceando uma carteira sem vender nada: o algoritmo do aporte](https://medium.com/@diegocardoso117/rebalanceando-uma-carteira-sem-vender-nada-o-algoritmo-do-aporte-d3c2667f8dbc)
+- [Rebalanceando a carteira só com o próximo aporte (sem vender)](https://medium.com/@diegocardoso117/rebalanceando-a-carteira-s%C3%B3-com-o-pr%C3%B3ximo-aporte-sem-vender-718315aa4a42)
+
 ## Limitações
 
 Não é recomendação de investimento. O planejador não considera impostos, taxas

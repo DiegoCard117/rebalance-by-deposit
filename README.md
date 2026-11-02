@@ -134,6 +134,13 @@ by cents from rounding a whole sale at once. Quantities are not rounded by FIFO.
 `holding_days` is the date difference and `long_term` means at least 365 days.
 Selling more than the available position raises `ValueError`; no lot is invented.
 
+## Further reading
+
+Articles (in Portuguese) about the algorithm:
+
+- [Rebalanceando uma carteira sem vender nada: o algoritmo do aporte](https://medium.com/@diegocardoso117/rebalanceando-uma-carteira-sem-vender-nada-o-algoritmo-do-aporte-d3c2667f8dbc)
+- [Rebalanceando a carteira só com o próximo aporte (sem vender)](https://medium.com/@diegocardoso117/rebalanceando-a-carteira-s%C3%B3-com-o-pr%C3%B3ximo-aporte-sem-vender-718315aa4a42)
+
 ## Limitations
 
 This is not investment advice. The planner does not account for taxes, purchase
