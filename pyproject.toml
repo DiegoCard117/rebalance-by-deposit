@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rebalance-by-deposit"
+version = "0.1.0"
+description = "Rebalance a portfolio with new deposits and calculate FIFO realized gains."
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest", "mypy"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+rebalance_by_deposit = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.mypy]
+strict = true
+
